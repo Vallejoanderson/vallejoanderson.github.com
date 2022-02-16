@@ -16,7 +16,9 @@ export const Contact = () => {
 					<img className="cursor-pointer" src={ linkedin }/>
 					<img className="cursor-pointer" src={ twitter }/>
 				</div>
-				<p className="text-slate-50 border-2 text-center px-16 py-4 mt-24 text-base md:text-xl cursor-pointer hover:bg-white hover:text-black tracking-widest">DOWNLOAD CV</p>
+				<a href="https://drive.google.com/file/d/10LRK6YTDQyNwDkTvYyA_hxy0sM-liHSn" target="_blannk">
+					<p className="text-slate-50 border-2 text-center px-16 py-4 mt-24 text-base md:text-xl cursor-pointer hover:bg-white hover:text-black tracking-widest">DOWNLOAD CV</p>
+				</a>
 			</div>
 		</div>
 	)
