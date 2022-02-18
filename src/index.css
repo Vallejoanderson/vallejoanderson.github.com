@@ -33,3 +33,11 @@ body{
 .font-monserrat{
     font-family: 'Montserrat', sans-serif;
 }
+
+.project__box{
+    box-shadow: 5px 5px black;
+}
+
+.rounde{
+    border-radius: 2px;
+}
