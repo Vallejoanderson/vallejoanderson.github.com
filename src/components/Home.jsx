@@ -5,7 +5,7 @@ import "../index.css";
 
 export const Home = () => {
 	return (
-		<div className="text-slate-50 text-center mt-72 animate__animated animate__slideInDown ">
+		<div className="text-slate-50 text-center mt-48 lg:mt-72 animate__animated animate__slideInDown">
 			<h1 className='font-monserrat text-4xl md:text-7xl'>
 				<span className="font-bold">FRONT-END </span>
 				<span className="font-light">DEVELOPER</span>

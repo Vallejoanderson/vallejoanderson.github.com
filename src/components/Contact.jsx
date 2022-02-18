@@ -8,7 +8,7 @@ export const Contact = () => {
 	const linkedin = `assets/linkedin.svg`;
 	const twitter = `assets/twitter.svg`;
 	return (
-		<div className="flex justify-center mt-36 animate__animated animate__slideInDown">
+		<div className="flex justify-center mt-24 lg:mt-36 animate__animated animate__slideInDown">
 			<div>
 				<img className="rounded-full border-2 w-40 mx-auto" src={ profile } alt="profile picture" />
 				<h2 className="text-slate-50 text-base md:text-xl text-center mt-8 tracking-widest">ANDERSON VALLEJO</h2>

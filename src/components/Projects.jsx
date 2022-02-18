@@ -11,7 +11,7 @@ export const Projects = () => {
 			{
 				projects.map( ( item ) => {
 					return(
-						<div className="group relative flex justify-center">
+						<div className="group relative flex justify-center mb-8">
 							<img className="animate__animated animate__slideInDown border-2" src={`assets/project${item.id}.png`}/>
 							<a className="absolute grid justify-center items-end w-full h-full rounded-xl bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 cursor-pointer" href={`${item.website}`} target="_blank">
 								<div>
