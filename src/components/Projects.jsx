@@ -21,17 +21,19 @@ export const Projects = () => {
 							<div className="group relative flex justify-center mb-8">
 								<img className="border-2" src={`assets/project${item.id}.png`}/>
 								<a className="absolute grid justify-center items-center w-full h-full rounded-xl bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 cursor-pointer">
-								<div className="animate__animated animate__bounceInLeft flex flex-wrap gap-4 justify-center">
-									{
-										(Object.values(item.technical__sheet)).map( ( skill ) => {
-											return(
-												<div key={item.id + skill}
-														 className="bg-white/90 text-black px-4 rounde font-bold tracking-wider shadow-2xl">{skill}
-												</div>
-											)
-										})
-									}
-									<div className="bg-sky-900 text-white px-4 py-2 rounde font-bold tracking-wider shadow-2xl mt-12">More...</div>
+								<div className="flex flex-col">
+									<div className="animate__animated animate__bounceInLeft flex flex-wrap gap-4 justify-center">
+										{
+											(Object.values(item.technical__sheet)).map( ( skill ) => {
+												return(
+													<div key={item.id + skill}
+															className="bg-white/90 text-black px-2 rounde font-bold tracking-wide shadow-xl">{skill}
+													</div>
+												)
+											})
+										}
+									</div>
+									<div className="bg-sky-900 w-1/4 text-center text-white px-2 rounde font-bold tracking-wider shadow-2xl	mx-auto mt-16">More...</div>
 								</div>
 								</a>
 							</div>
